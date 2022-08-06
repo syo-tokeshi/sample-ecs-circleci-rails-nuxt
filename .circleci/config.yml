@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   test_backend:
     docker:
-      - image: cimg/ruby:2.7.6
+      - image: cimg/ruby:2.7.6565657657
         environment:
           RAILS_ENV: test
           DB_HOST: 127.0.0.1
